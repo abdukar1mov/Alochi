@@ -1,0 +1,26 @@
+.topBar{
+    .container{
+        max-width: 1024px;
+        padding: 0px 40px;
+        .menues{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .icon{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: #e6fef4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .avtr{
+                img{
+                    width: 50px;
+                    border-radius: 35%;
+                }
+            }
+        }
+    }
+}

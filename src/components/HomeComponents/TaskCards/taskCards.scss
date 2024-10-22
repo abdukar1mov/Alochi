@@ -1,0 +1,53 @@
+.taskCards {
+  .container {
+    max-width: 1024px;
+    padding: 0px 40px;
+    .taskCardsClass {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      grid-gap: 15px;
+
+      .card {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 220px;
+        background: #e34e6e;
+        border-radius: 100px 100px 20px 20px;
+        padding: 10px;
+
+        .icon {
+          width: 50px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          background: #fef9e7;
+        }
+        .points {
+          margin: 10px 0px;
+          font-family: "Poppins", sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          color: #ffff;
+        }
+        .texts {
+          color: #ffff;
+          font-family: "Poppins", sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+      .card:nth-child(2) {
+        background: #f6c737;
+      }
+      .card:nth-child(3) {
+        background: #17ba83;
+      }
+    }
+  }
+}
