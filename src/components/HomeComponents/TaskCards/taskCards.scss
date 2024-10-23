@@ -1,6 +1,5 @@
 .taskCards {
   .container {
-    max-width: 1024px;
     padding: 0px 40px;
     .taskCardsClass {
       display: flex;
@@ -11,13 +10,14 @@
       .card {
         text-align: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        width: 220px;
+        width: 200px;
+        height: 120px;
         background: #e34e6e;
         border-radius: 100px 100px 20px 20px;
-        padding: 10px;
+        padding: 10px 3px;
 
         .icon {
           width: 50px;
@@ -34,6 +34,13 @@
           font-size: 16px;
           font-weight: 700;
           color: #ffff;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          grid-gap: 4px;
+          span{
+            font-size: 10px;
+          }
         }
         .texts {
           color: #ffff;

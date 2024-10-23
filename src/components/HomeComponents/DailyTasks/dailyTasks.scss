@@ -1,0 +1,63 @@
+.dailyTasks{
+    margin-top: 30px;
+    .container{
+        padding: 0px 40px;
+        .task{
+            font-size: 24px;
+            color: #000000;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        .daily_cards{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            grid-gap: 20px;
+            .daily_card{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 5px 10px;
+                background: #65A4DA;
+                border-radius: 20px;
+                .icon{
+                    img{
+                        width: 70px;
+                    }
+                }
+                .activity_info{
+                    margin-top: -10px;
+                    font-size: 14px;
+                    width: 160px;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    .activ_name{
+                        h1{
+                            font-family: 'Poppins', sans-serif;
+                            font-weight: 400;
+                            color: #ffff;
+                            font-size: 18px;
+                        }
+                    }
+                    .statusActivity{
+                        margin-top: -10px;
+                        
+                        .coins{
+                            margin-left: 10px;
+                            position: relative;
+                            top: 15px;
+                            left: -15px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .daily_card:nth-child(2){
+                background: #17BA83;
+            }
+        }
+    }
+}

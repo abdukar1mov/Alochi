@@ -20,7 +20,7 @@ const TaskCards = () => {
             <div className="icon">
               <RocketLaunchIcon />
             </div>
-            <div className="points">40 points</div>
+            <div className="points">40 <span>points</span></div>
             <div className="texts">Progress</div>
           </div>
           <div className="card">
