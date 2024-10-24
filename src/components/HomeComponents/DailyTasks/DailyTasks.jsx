@@ -1,7 +1,5 @@
 import React from "react";
 import "./dailyTasks.scss";
-import sport from "../../../images/Sport.png";
-import science from "../../../images/Science.png";
 import Rating from "@mui/material/Rating";
 import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
